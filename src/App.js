@@ -5,7 +5,7 @@ function App() {
 
   useEffect(() => {
     fetch(
-      "https://api.nasa.gov/planetary/apod?start_date=2023-11-01&end_date=2023-11-10&api_key=DEMO_KEY"
+      "https://api.nasa.gov/planetary/apod?start_date=2023-11-01&end_date=2023-11-10&api_key=qkhp6XYpIgLtkAQW26yGlihcoVk1yZdJ76f7vPi6"
     )
       .then((response) => response.json())
       .then((nasaData) => setPodaci(nasaData));
